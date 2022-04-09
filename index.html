@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="stylesheet" href="navbar.css">
+  <style type="text/css">
+    #info {
+      padding-left: 15%;
+      padding-right: 15%;
+      font-family: monospace;
+      font-size: 30px;
+      
+    }
+
+
+    @media only screen and (max-width: 600px) {
+
+      .hi {
+        background-image: url("resources/background3.jpg");
+        width: 100%;
+        height: 100%;
+      }
+
+      #container {
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+
+
+      #info {
+      padding-left: 15%;
+      padding-right: 15%;
+      font-family: monospace;
+      font-size: 18px;
+      
+    }
+    }
+
+    @media only screen and (min-width: 600px) {
+      .hi {
+        background-image: url("resources/sa.png");
+        background-size: 1500px;
+
+        #container {
+          width: 100%;
+          padding-left: 50px;
+          padding-right: 50px;
+
+        }
+
+      
+
+      #info {
+      padding-left: 15%;
+      padding-right: 15%;
+      font-family: monospace;
+      font-size: 30px;
+      
+    }
+
+    }
+  </style>
+
+
+  <!-- css -->
+  <!--  <link rel="stylesheet" type="text/css" href="css.css"> -->
+
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <title>DeWhales</title>
+</head>
+
+
+
+
+<body class="hi">
+
+
+
+
+
+  <!-- nav-->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">deWhales</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="index2.html">Season 1</a>
+          </li>
+
+        </ul>
+        <form class="d-flex">
+
+          <!-- the main idea was to let user choose the NFT individually. Well I dont see how we can do that without a databse -->
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div class="mx-auto" id="container" style="	margin-top: 90px; margin-left: 150px;">
+    <p id="info" style="text-align: center;">
+      deWhales is the semi-generative nft project <br> of 444 whales deplyed on deSo blockchain 
+    </p>
+    <br>
+    <div class="d-grid gap-2 col-4 mx-auto login-button">
+      <button class="btn btn-primary btn-lg" type="submit" style="margin-top:100px;">
+        <h2>Login</h2>
+      </button>
+
+    </div>
+  </div>
+
+
+
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>
